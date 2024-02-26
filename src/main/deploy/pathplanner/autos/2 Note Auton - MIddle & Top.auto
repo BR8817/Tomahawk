@@ -1,0 +1,50 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.372573815053221,
+      "y": 5.515804013063111
+    },
+    "rotation": 0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 3.0
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "2 Note Auton - 1st Note"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 3.0
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "2 Note Auton - 2nd Note"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "folder": "MultiStep Autons",
+  "choreoAuto": false
+}
